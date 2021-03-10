@@ -1,0 +1,7 @@
+# GENERATED FILE DO NOT EDIT
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+   - conda-forge::cudatoolkit==10.2.89
