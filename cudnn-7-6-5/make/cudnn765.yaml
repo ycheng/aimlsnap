@@ -1,0 +1,6 @@
+channels:
+- pkgs/main
+dependencies:
+- pkgs/main::cudatoolkit=10.0.130
+- pkgs/main::cudnn=7.6.5
+
