@@ -99,7 +99,7 @@ else:
 if need_restart:
     if len(sys.argv) == 1 and len(sys.argv[0]) == 0:
         # print("f1")
-        os.execv(sys.excutable, [sys.executable])
+        os.execv(sys.executable, [sys.executable])
     elif sys.executable == sys.argv[0]:
         # print("f2")
         os.execv(sys.argv[0], sys.argv)
@@ -107,6 +107,7 @@ if need_restart:
         # print("f3")
         os.execv(sys.executable, [sys.executable] + sys.argv)
 
+sys.path.append("/snap/tensorflow-1-15-engine/current/tf1150/lib/python3.7/site-packages")
 
 # Prefixes for site-packages; add additional prefixes like /usr/local here
 PREFIXES = [sys.prefix, sys.exec_prefix]
