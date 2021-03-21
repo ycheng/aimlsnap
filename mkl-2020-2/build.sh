@@ -1,0 +1,1 @@
+snapcraft --destructive-mode
