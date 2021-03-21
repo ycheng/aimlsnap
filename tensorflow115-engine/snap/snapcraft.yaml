@@ -1,0 +1,26 @@
+name: tensorflow-1-15-engine
+version: '0.1'
+summary: tensorflow-1.15
+description: |
+  Leverage conda-packages to install tensorflow 1.15.0
+
+grade: devel
+base: core20
+confinement: strict
+
+
+apps:
+  env:
+    command:
+      env.sh
+
+parts:
+  tensorflow:
+    plugin: make
+    make-parameters:
+      - -C
+      - $SNAPCRAFT_PROJECT_DIR/make
+  bin:
+    plugin: dump
+    source: ./bin/
+

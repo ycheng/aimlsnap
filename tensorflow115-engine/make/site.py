@@ -75,10 +75,6 @@ import builtins
 import _sitebuiltins
 import pprint as pp
 
-if False:
-    print("m1")
-    print("argv", sys.argv)
-    print("executable", sys.executable)
 
 # those code for run outside snap confirnement.
 ldpathkey = "LD_LIBRARY_PATH"
@@ -98,14 +94,11 @@ else:
 
 if need_restart:
     if len(sys.argv) == 1 and len(sys.argv[0]) == 0:
-        # print("f1")
-        os.execv(sys.excutable, [sys.executable])
-    elif sys.executable == sys.argv[0]:
-        # print("f2")
+        os.execv(os.environ["_"], [os.environ["_"]])
+    elif os.environ["_"] == sys.argv[0]:
         os.execv(sys.argv[0], sys.argv)
     else:
-        # print("f3")
-        os.execv(sys.executable, [sys.executable] + sys.argv)
+        os.execv(os.environ["_"], [os.environ["_"]] + sys.argv)
 
 
 # Prefixes for site-packages; add additional prefixes like /usr/local here

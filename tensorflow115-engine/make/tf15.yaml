@@ -1,0 +1,9 @@
+# generated file
+channels:
+  - default
+dependencies:
+  - pkgs/main::tensorboard=1.15.0
+  - pkgs/main::tensorflow=1.15.0
+  - pkgs/main::tensorflow-base=1.15.0
+  - pkgs/main::tensorflow-estimator=1.15.1
+  - pkgs/main::tensorflow-gpu=1.15.0
