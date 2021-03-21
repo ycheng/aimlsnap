@@ -73,6 +73,33 @@ import sys
 import os
 import builtins
 import _sitebuiltins
+import pprint as pp
+
+
+# those code for run outside snap confirnement.
+ldpathkey = "LD_LIBRARY_PATH"
+toaddpath = "/snap/cudnn-7-6-5/current/cudnn765/lib"
+
+need_restart = False
+
+if ldpathkey not in os.environ:
+    os.environ[ldpathkey] = toaddpath
+    need_restart = True
+else:
+    ldpathval = os.environ[ldpathkey]
+    pathes = ldpathval.split(":")
+    if toaddpath not in pathes:
+        os.environ[ldpathkey] = ldpathval + ":" + toaddpath
+        need_restart = True
+
+if need_restart:
+    if len(sys.argv) == 1 and len(sys.argv[0]) == 0:
+        os.execv(os.environ["_"], [os.environ["_"]])
+    elif os.environ["_"] == sys.argv[0]:
+        os.execv(sys.argv[0], sys.argv)
+    else:
+        os.execv(os.environ["_"], [os.environ["_"]] + sys.argv)
+
 
 # Prefixes for site-packages; add additional prefixes like /usr/local here
 PREFIXES = [sys.prefix, sys.exec_prefix]
