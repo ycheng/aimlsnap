@@ -10,5 +10,4 @@ install:
 	     pkgs/main::mkl_random=1.1.1 \
 	     pkgs/main::mkl-service=2.3.0 \
 	     python=3.7.10
-	# mkdir $$SNAPCRAFT_PART_INSTALL/cudnn765
-	# cat cudnn-7-6-5.list | ( cd $$SNAPCRAFT_PART_INSTALL ; xargs rm )
+	cat *.list | ( cd $$SNAPCRAFT_PART_INSTALL/mkl-2020.2 ; xargs rm )

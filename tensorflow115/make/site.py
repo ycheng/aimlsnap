@@ -82,19 +82,22 @@ if False:
 
 # those code for run outside snap confirnement.
 ldpathkey = "LD_LIBRARY_PATH"
-toaddpath = "/snap/cudnn-7-6-5/current/cudnn765/lib"
+toaddpaths = ["/snap/cudnn-7-6-5/current/cudnn765/lib", "/snap/mkl-2020-2/current/mkl-2020.2/lib/"]
 
 need_restart = False
 
 if ldpathkey not in os.environ:
-    os.environ[ldpathkey] = toaddpath
+    os.environ[ldpathkey] = ":".join(toaddpaths)
     need_restart = True
 else:
     ldpathval = os.environ[ldpathkey]
     pathes = ldpathval.split(":")
-    if toaddpath not in pathes:
-        os.environ[ldpathkey] = ldpathval + ":" + toaddpath
-        need_restart = True
+    for p in toaddpaths:
+        if p not in pathes:
+            pathes.append(p)
+            need_restart = True
+    if need_restart:
+        os.environ[ldpathkey] = ":".join(pathes)
 
 if need_restart:
     if len(sys.argv) == 1 and len(sys.argv[0]) == 0:
@@ -108,6 +111,8 @@ if need_restart:
         os.execv(sys.executable, [sys.executable] + sys.argv)
 
 sys.path.append("/snap/tensorflow-1-15-engine/current/tf1150/lib/python3.7/site-packages")
+sys.path.append("/snap/mkl-2020-2/current/mkl-2020.2/lib/python3.7/site-packages")
+
 
 # Prefixes for site-packages; add additional prefixes like /usr/local here
 PREFIXES = [sys.prefix, sys.exec_prefix]
