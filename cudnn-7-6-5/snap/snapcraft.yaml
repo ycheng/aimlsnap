@@ -1,6 +1,6 @@
 name: cudnn-7-6-5
 version: '0.1'
-summary: cudnn and cud library
+summary: cudnn and cuda library
 description: |
   Leverage conda-packages to install cudnn and cuda
 
@@ -17,8 +17,8 @@ parts:
 
 slots:
   cudnn765:
-    content: cudnn765
+    content: cudnn-7-6-5
     interface: content
     read:
-    - /cudnn765
+    - /cudnn-7-6-5
 
