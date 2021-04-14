@@ -1,0 +1,4 @@
+channels:
+- pkgs/main
+dependencies:
+- pkgs/main::mkl=2020.2
