@@ -1,0 +1,180 @@
+    _tflow_select-2.1.0        |              gpu           2 KB
+    absl-py-0.12.0             |   py38h06a4308_0         172 KB
+    aiohttp-3.7.4              |   py38h27cfd23_1         542 KB
+    anyio-2.2.0                |   py38h06a4308_1         125 KB
+    argon2-cffi-20.1.0         |   py38h27cfd23_1          46 KB
+    astunparse-1.6.3           |             py_0          17 KB
+    async-timeout-3.0.1        |   py38h06a4308_0          13 KB
+    async_generator-1.10       |     pyhd3eb1b0_0          23 KB
+    attrs-20.3.0               |     pyhd3eb1b0_0          43 KB
+    babel-2.9.0                |     pyhd3eb1b0_0         5.5 MB
+    backcall-0.2.0             |     pyhd3eb1b0_0          13 KB
+    blas-1.0                   |              mkl           6 KB
+    bleach-3.3.0               |     pyhd3eb1b0_0         113 KB
+    blinker-1.4                |   py38h06a4308_0          23 KB
+    bzip2-1.0.8                |       h7b6447c_0          78 KB
+    c-ares-1.17.1              |       h27cfd23_0         108 KB
+    ca-certificates-2021.1.19  |       h06a4308_1         118 KB
+    cachetools-4.2.1           |     pyhd3eb1b0_0          13 KB
+    certifi-2020.12.5          |   py38h06a4308_0         141 KB
+    click-7.1.2                |     pyhd3eb1b0_0          64 KB
+    conda-4.10.0               |   py38h06a4308_0         2.9 MB
+    coverage-5.5               |   py38h27cfd23_2         259 KB
+    cupti-10.1.168             |                0         1.4 MB
+    cycler-0.10.0              |           py38_0          14 KB
+    cython-0.29.22             |   py38h2531618_0         2.0 MB
+    dbus-1.13.18               |       hb2f20db_0         504 KB
+    decorator-5.0.6            |     pyhd3eb1b0_0          12 KB
+    defusedxml-0.7.1           |     pyhd3eb1b0_0          23 KB
+    entrypoints-0.3            |           py38_0          10 KB
+    expat-2.3.0                |       h2531618_2         158 KB
+    fontconfig-2.13.1          |       h6c09931_0         250 KB
+    freetype-2.10.4            |       h5ab3b9f_0         596 KB
+    gast-0.4.0                 |             py_0          15 KB
+    glib-2.68.0                |       h36276a3_0         3.0 MB
+    gmp-6.2.1                  |       h2531618_2         539 KB
+    gnutls-3.6.15              |       he1e5248_0         1.0 MB
+    google-auth-1.28.0         |     pyhd3eb1b0_0          72 KB
+    google-auth-oauthlib-0.4.4 |     pyhd3eb1b0_0          18 KB
+    google-pasta-0.2.0         |             py_0          46 KB
+    grpcio-1.36.1              |   py38h2157cd5_1         1.9 MB
+    gst-plugins-base-1.14.0    |       h8213a91_2         4.9 MB
+    gstreamer-1.14.0           |       h28cd5cc_2         3.2 MB
+    h5py-2.10.0                |   py38hd6299e0_1         948 KB
+    hdf5-1.10.6                |       hb1b8bf9_0         3.7 MB
+    icu-58.2                   |       he6710b0_3        10.5 MB
+    importlib-metadata-3.10.0  |   py38h06a4308_0          33 KB
+    importlib_metadata-3.10.0  |       hd3eb1b0_0          11 KB
+    intel-openmp-2020.2        |              254         786 KB
+    ipykernel-5.3.4            |   py38h5ca1d4c_0         183 KB
+    ipython-7.22.0             |   py38hb070fc8_0         982 KB
+    ipython_genutils-0.2.0     |     pyhd3eb1b0_1          27 KB
+    ipywidgets-7.6.3           |     pyhd3eb1b0_1         105 KB
+    jedi-0.17.0                |           py38_0         780 KB
+    jinja2-2.11.3              |     pyhd3eb1b0_0         101 KB
+    jpeg-9b                    |       h024ee3a_2         214 KB
+    json5-0.9.5                |             py_0          22 KB
+    jsonschema-3.2.0           |             py_2          47 KB
+    jupyter-packaging-0.7.12   |     pyhd3eb1b0_0          14 KB
+    jupyter_client-6.1.12      |     pyhd3eb1b0_0          88 KB
+    jupyter_core-4.7.1         |   py38h06a4308_0          68 KB
+    jupyter_server-1.4.1       |   py38h06a4308_0         317 KB
+    jupyterlab-3.0.11          |     pyhd3eb1b0_1         3.5 MB
+    jupyterlab_pygments-0.1.2  |             py_0           8 KB
+    jupyterlab_server-2.4.0    |     pyhd3eb1b0_0          37 KB
+    jupyterlab_widgets-1.0.0   |     pyhd3eb1b0_1         109 KB
+    keras-preprocessing-1.1.2  |     pyhd3eb1b0_0          35 KB
+    kiwisolver-1.3.1           |   py38h2531618_0          80 KB
+    lame-3.100                 |       h7b6447c_0         323 KB
+    lcms2-2.12                 |       h3be6417_0         312 KB
+    libgfortran-ng-7.3.0       |       hdf63c60_0        1006 KB
+    libiconv-1.15              |       h63c8f33_5         721 KB
+    libidn2-2.3.0              |       h27cfd23_0          86 KB
+    libpng-1.6.37              |       hbc83047_0         278 KB
+    libprotobuf-3.14.0         |       h8c45485_0         2.0 MB
+    libsodium-1.0.18           |       h7b6447c_0         244 KB
+    libtasn1-4.16.0            |       h27cfd23_0          58 KB
+    libtiff-4.1.0              |       h2733197_1         449 KB
+    libunistring-0.9.10        |       h27cfd23_0         536 KB
+    libuuid-1.0.3              |       h1bed415_2          15 KB
+    libuv-1.40.0               |       h7b6447c_0         736 KB
+    libxcb-1.14                |       h7b6447c_0         505 KB
+    libxml2-2.9.10             |       hb55368b_3         1.2 MB
+    lz4-c-1.9.3                |       h2531618_0         186 KB
+    markdown-3.3.4             |   py38h06a4308_0         129 KB
+    markupsafe-1.1.1           |   py38h7b6447c_0          33 KB
+    matplotlib-3.3.4           |   py38h06a4308_0          26 KB
+    matplotlib-base-3.3.4      |   py38h62a2d02_0         5.1 MB
+    mistune-0.8.4              |py38h7b6447c_1000          55 KB
+
+
+
+
+    mkl-service-2.3.0          |   py38he904b0f_0          62 KB
+    mkl_fft-1.3.0              |   py38h54f3939_0         177 KB
+    mkl_random-1.1.1           |   py38h0573a6f_0         341 KB
+    multidict-5.1.0            |   py38h27cfd23_2          68 KB
+    nbclassic-0.2.6            |     pyhd3eb1b0_0          19 KB
+    nbclient-0.5.3             |     pyhd3eb1b0_0          62 KB
+    nbconvert-6.0.7            |           py38_0         481 KB
+    nbformat-5.1.3             |     pyhd3eb1b0_0          44 KB
+    nest-asyncio-1.5.1         |     pyhd3eb1b0_0          10 KB
+    nettle-3.7.2               |       hbbd107a_1         811 KB
+    ninja-1.10.2               |       hff7bd54_1         1.4 MB
+    notebook-6.3.0             |   py38h06a4308_0         4.1 MB
+    numpy-1.19.2               |   py38h54aff64_0          22 KB
+    numpy-base-1.19.2          |   py38hfa32c7d_0         4.2 MB
+    oauthlib-3.1.0             |             py_0          91 KB
+    olefile-0.46               |             py_0          33 KB
+    openh264-2.1.0             |       hd408876_0         722 KB
+    openssl-1.1.1k             |       h27cfd23_0         2.5 MB
+    opt_einsum-3.1.0           |             py_0          54 KB
+    packaging-20.9             |     pyhd3eb1b0_0          37 KB
+    pandoc-2.12                |       h06a4308_0         9.5 MB
+    pandocfilters-1.4.3        |   py38h06a4308_1          14 KB
+    parso-0.8.2                |     pyhd3eb1b0_0          69 KB
+    pcre-8.44                  |       he6710b0_0         212 KB
+    pexpect-4.8.0              |     pyhd3eb1b0_3          53 KB
+    pickleshare-0.7.5          |  pyhd3eb1b0_1003          13 KB
+    pillow-8.2.0               |   py38he98fc37_0         628 KB
+    prometheus_client-0.10.1   |     pyhd3eb1b0_0          46 KB
+    prompt-toolkit-3.0.17      |     pyh06a4308_0         256 KB
+    protobuf-3.14.0            |   py38h2531618_1         309 KB
+    ptyprocess-0.7.0           |     pyhd3eb1b0_2          17 KB
+    pyasn1-0.4.8               |             py_0          57 KB
+    pyasn1-modules-0.2.8       |             py_0          72 KB
+    pygments-2.8.1             |     pyhd3eb1b0_0         703 KB
+    pyjwt-1.7.1                |           py38_0          33 KB
+    pyparsing-2.4.7            |     pyhd3eb1b0_0          59 KB
+    pyqt-5.9.2                 |   py38h05f1152_4         4.5 MB
+    pyrsistent-0.17.3          |   py38h7b6447c_0          90 KB
+    python-dateutil-2.8.1      |     pyhd3eb1b0_0         221 KB
+    python-flatbuffers-1.12    |     pyhd3eb1b0_0          24 KB
+    pytz-2021.1                |     pyhd3eb1b0_0         181 KB
+    pyzmq-20.0.0               |   py38h2531618_1         447 KB
+    qt-5.9.7                   |       h5867ecd_1        68.5 MB
+    requests-oauthlib-1.3.0    |             py_0          23 KB
+    rsa-4.7.2                  |     pyhd3eb1b0_1          28 KB
+    scipy-1.6.2                |   py38h91f5cce_0        15.6 MB
+    send2trash-1.5.0           |     pyhd3eb1b0_1          14 KB
+    sip-4.19.13                |   py38he6710b0_0         277 KB
+    sniffio-1.2.0              |   py38h06a4308_1          15 KB
+    termcolor-1.1.0            |   py38h06a4308_1           9 KB
+    terminado-0.9.4            |   py38h06a4308_0          25 KB
+    testpath-0.4.4             |     pyhd3eb1b0_0          85 KB
+    tornado-6.1                |   py38h27cfd23_0         588 KB
+    traitlets-5.0.5            |     pyhd3eb1b0_0          81 KB
+    typing-extensions-3.7.4.3  |       hd3eb1b0_0          12 KB
+    typing_extensions-3.7.4.3  |     pyh06a4308_0          28 KB
+    wcwidth-0.2.5              |             py_0          29 KB
+    webencodings-0.5.1         |           py38_1          20 KB
+    werkzeug-1.0.1             |     pyhd3eb1b0_0         239 KB
+    widgetsnbextension-3.5.1   |           py38_0         866 KB
+    wrapt-1.12.1               |   py38h7b6447c_1          50 KB
+    yarl-1.6.3                 |   py38h27cfd23_0         136 KB
+    zeromq-4.3.4               |       h2531618_0         331 KB
+    zipp-3.4.1                 |     pyhd3eb1b0_0          15 KB
+    zstd-1.4.9                 |       haebb681_0         480 KB
+    ------------------------------------------------------------
+                                           Total:        1.71 GB
+
+    cudatoolkit-10.1.243       |       h6bb024c_0       347.4 MB
+    cudnn-7.6.5                |       cuda10.1_0       179.9 MB
+
+
+    mkl-2020.2                 |              256       138.3 MB
+
+
+    tensorboard-2.4.0          |     pyhc547734_0         8.8 MB
+    tensorboard-plugin-wit-1.6.0|             py_0         630 KB
+    tensorflow-2.4.1           |gpu_py38h8a7d6ce_0           4 KB
+    tensorflow-base-2.4.1      |gpu_py38h29c2da4_0       195.2 MB
+    tensorflow-estimator-2.4.1 |     pyheb71bc4_0         260 KB
+    tensorflow-gpu-2.4.1       |       h30adc30_0           3 KB
+
+
+    torchaudio-0.8.1           |             py38         4.4 MB  pytorch
+    torchvision-0.9.1          |       py38_cu101        25.7 MB  pytorch
+    pytorch-1.8.1              |py3.8_cuda10.1_cudnn7.6.3_0       649.7 MB  pytorch
+
+    ffmpeg-4.3                 |       hf484d3e_0         9.9 MB  pytorch
